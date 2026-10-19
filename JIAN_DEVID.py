@@ -1225,7 +1225,7 @@ class AsyncGameConn:
                 if self.last_header_size < 100 and miss >= 3:
                     return None
 
-LOGIN_HOST = 'login.ml.youngjoygame.com'
+LOGIN_HOST = 'global-login.ml.youngjoygame.com'
 LOGIN_PORT = 30021
 CLIENT_VERSION = '2.2.16.1232.1'
 CHANNEL = 'and_usa'
